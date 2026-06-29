@@ -1,0 +1,64 @@
+canonical_identifier: bkk:krp/KR2k0150/v1
+canonical_location: https://kanripo.org/bkk/KR2k0150/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 坤輿圖說
+  date: '2015-08-24 22:47:35.497805'
+  source:
+    repository: kanripo
+    path: KR2k0150
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR2k0150_000.yaml, hash: 'sha256:06aa74f7b9e25179b7235e1482781c759526cdab37235b4d0f502de66c830160'}
+  - {seq: 1, filename: KR2k0150_001.yaml, hash: 'sha256:c81025ca51d69882b6dd26e53d2715f4757062ee6b26acd984ec6a14800e6663'}
+  - {seq: 2, filename: KR2k0150_002.yaml, hash: 'sha256:8f0aa374fa3d046bb5c7bfd9c012ad0d8662bdaa3f8d5c3d0d5b9a482736bbe6'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR2k0150_000.markers.yaml, hash: 'sha256:a051b570130db612889a51bb5bc58308ca9b2a2422277eb2fd8260344f4595b1'}
+  - {seq: 1, role: markers, filename: assets/KR2k0150_001.markers.yaml, hash: 'sha256:84a2a43ee27f3748e89892b053dda007764bb26f70e44623537c9d930a8edec9'}
+  - {seq: 2, role: markers, filename: assets/KR2k0150_002.markers.yaml, hash: 'sha256:3abf51e605ce944dce570165a9289f9b574f60211d167d9571c17d04d376d470'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR2k0150_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 505
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR2k0150_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 10041
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR2k0150_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 20423
+  label: 卷下
+  type: section
+  level: 1
+hash: sha256:4da5a03a581bce9727c7a15c994a1a5681e62cdb8373c422cbffcc8db31375b9
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
